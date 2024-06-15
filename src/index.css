@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap");
+
+/* Add this to src/tailwind.css or src/index.css */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  :root {
+    --main-color:#e8b914;
+    --light-color: #f0f3f2;
+    --rating-color: #ffc908;
+    --font-family: "Encode Sans Expanded", sans-serif;
+      --shadow: rgba(232, 185, 20, 0.2) 0px 2px 4px -1px,
+            rgba(232, 185, 20, 0.14) 0px 4px 5px 0px,
+            rgba(232, 185, 20, 0.12) 0px 1px 10px 0px;
+  }
+
+  body {
+    font-family:"Encode Sans Expanded", sans-serif !important;
+  }
+
+  /* Scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 15px;
+}
+/* Scrollbar */
+.navbar{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 8px;
+}
+.btn-main:active {
+  box-shadow: 0 0 0 0.25rem rgba(232, 185, 20, 0.25) !important;
+}
+.form-login{
+  margin-top: -50px !important;
+}
+
+  button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f7fafc;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .text-gray-600 {
+    color: #718096;
+  }
+  
+  .text-yellow-500 {
+    color: #ecc94b;
+  }
+  
+  .bg-yellow-500 {
+    background-color: #ecc94b;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  /* input:not([type=radio]) */
+input:not([type=radio]),
+textarea {
+  border-color: #ced4da !important;
+  box-shadow: none !important;
+  transition: border-color 0.2s, box-shadow 0.2s !important;
+  -webkit-transition: border-color 0.2s, box-shadow 0.2s !important;
+  -moz-transition: border-color 0.2s, box-shadow 0.2s !important;
+  -ms-transition: border-color 0.2s, box-shadow 0.2s !important;
+  -o-transition: border-color 0.2s, box-shadow 0.2s !important;
+  outline: none !important;
+}
+
+input:not([type=radio]):focus,
+input:not([type=radio]):focus-within,
+textarea:focus,
+textarea:focus-within {
+  border-color: #e8b914 !important;
+  box-shadow: 0 0 0 0.25rem rgba(232, 185, 20, 0.25) !important;
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input:not([type=radio])::-webkit-outer-spin-button,
+input:not([type=radio])::-webkit-inner-spin-button,
+textarea::-webkit-outer-spin-button,
+textarea::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
