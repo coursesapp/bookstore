@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bookstore/static/css/main.1f02486a.css",
+    "main.js": "/bookstore/static/js/main.fbb2ad77.js",
+    "static/js/453.ed3810f9.chunk.js": "/bookstore/static/js/453.ed3810f9.chunk.js",
+    "static/media/light-patten.svg": "/bookstore/static/media/light-patten.ed706aff39a009de4e8001ed31f5a17c.svg",
+    "static/media/its me.jpg": "/bookstore/static/media/its me.007071974b02e4ab9873.jpg",
+    "static/media/forgetLock.svg": "/bookstore/static/media/forgetLock.1792efa874dc9a5cbe100f28b9180889.svg",
+    "static/media/Mkanak-Logo.png": "/bookstore/static/media/Mkanak-Logo.198f8412a0483be42626.png",
+    "static/media/404 error lost in space-cuate.svg": "/bookstore/static/media/404 error lost in space-cuate.a4626ba6e187b1086f899eeee73221b0.svg",
+    "static/media/Key-rafiki.svg": "/bookstore/static/media/Key-rafiki.95ea3df18fcc620496a5ab3655d6fe43.svg",
+    "static/media/stage2.png": "/bookstore/static/media/stage2.2c7b0ed619a5dcc5d7ef.png",
+    "static/media/stage3.png": "/bookstore/static/media/stage3.a1c4f41d5b87caf210a3.png",
+    "static/media/stage1.png": "/bookstore/static/media/stage1.2e17c0edfc92ffe25d9d.png",
+    "static/media/OIP.jpg": "/bookstore/static/media/OIP.8fab3d3f52e4c80568ab.jpg",
+    "index.html": "/bookstore/index.html",
+    "main.1f02486a.css.map": "/bookstore/static/css/main.1f02486a.css.map",
+    "main.fbb2ad77.js.map": "/bookstore/static/js/main.fbb2ad77.js.map",
+    "453.ed3810f9.chunk.js.map": "/bookstore/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f02486a.css",
+    "static/js/main.fbb2ad77.js"
+  ]
+}
